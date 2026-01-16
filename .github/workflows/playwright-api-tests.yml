@@ -10,7 +10,7 @@ on:
 jobs:
   api-tests:
     name: Run Playwright API Tests
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       # Checkout repo
