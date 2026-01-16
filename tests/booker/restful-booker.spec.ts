@@ -4,7 +4,6 @@ import URLConstants from '../../utils/constants/URLConstants';
 
 let apiContext: APIRequestContext;
 const authUrl = new URLConstants().authenticate;
-const bookingUrl = new URLConstants().create_booking;
 
 test.beforeAll(async () => {
     apiContext = await getApiContext();
@@ -33,7 +32,7 @@ test('Creates a new auth token to use for access to the PUT and DELETE /booking 
     expect(responseBody, requestInfo).toHaveProperty('token');
 });
 
-test.only('GET all booking IDs @smoke', async () => {
+test('GET all booking IDs @smoke', async () => {
     const response = await apiContext.get('/booking');
     expect(response.status()).toBe(200);
     const responseBody = await response.json();

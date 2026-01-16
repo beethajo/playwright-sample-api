@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "prepare": "husky install",
+        "lint": "eslint . --ext .ts",
         "test:dev": "set test_env=dev && npx playwright test --grep @token",
         "test:staging": "test_env=staging npx playwright test"
     },
