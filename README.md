@@ -18,12 +18,12 @@ This repository serves the purpose of creating test scripts for the RL API
 -   `npm install -D @playwright/test@latest` to install playwright
 
 ### How to run
--   To run the tests on local pc:  `npx cross-env playwright test`
+
+-   To run the tests on local pc: `npx cross-env playwright test`
 -   To run the tests on dev environment: `npm run test:dev`
 -   To run the tests on staging environment: `npm run test:staging`
 -   To run a specific tag: `npx playwright test --grep @tagname`
 -   To run a test on specific branch `BRANCH_NAME=release-greensite npx playwright test --grep @tagname`
-
 
 ### Project structure
 
