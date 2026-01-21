@@ -1,6 +1,7 @@
 import { test, expect, APIRequestContext } from '@playwright/test';
 import { getApiContext } from '../ContextHooks';
 import URLConstants from '../../utils/constants/URLConstants';
+import logger from '../../utils/utility/logger';
 
 let apiContext: APIRequestContext;
 const authUrl = new URLConstants().authenticate;
@@ -15,6 +16,7 @@ test('Creates a new auth token to use for access to the PUT and DELETE /booking 
         password: 'password123',
     };
     console.log('auth url :  ' + authUrl);
+    logger.info('auth url :  ' + authUrl);
     const response = await apiContext.post(authUrl, {
         data: JSON.stringify(userData),
     });
@@ -42,8 +44,10 @@ test('GET all booking IDs @smoke', async () => {
     expect(responseBody.length).toBeGreaterThan(0);
     expect(responseBody[0]).toHaveProperty('bookingid');
     console.log('responseBody[0] : ' + (await responseBody[0].bookingid));
+    logger.info('responseBody[0] : ' + (await responseBody[0].bookingid));
 });
 
 test.afterEach(async () => {
     console.log(`Finished ${test.info().title} with status ${test.info().status}`);
+    logger.info(`Finished ${test.info().title} with status ${test.info().status}`);
 });
