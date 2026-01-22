@@ -1,45 +1,47 @@
 {
-    "name": "playwright-sample-api",
-    "version": "1.0.0",
-    "description": "Playwright TS framework for RL API",
-    "main": "index.js",
-    "scripts": {
-        "prepare": "husky install",
-        "lint": "eslint . --ext .ts",
-        "test:dev": "set test_env=dev && npx playwright test --grep @token",
-        "test:staging": "test_env=staging npx playwright test"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "lint-staged": {
-        "./**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-            "prettier --write"
-        ]
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "@faker-js/faker": "^8.2.0",
-        "@playwright/test": "^1.40.1",
-        "@testmo/testmo-cli": "^1.0.12",
-        "@types/node": "^20.9.0",
-        "@typescript-eslint/eslint-plugin": "^6.9.1",
-        "@typescript-eslint/parser": "^6.9.1",
-        "eslint": "^8.52.0",
-        "eslint-plugin-react": "^7.33.2",
-        "husky": "^8.0.0",
-        "lint-staged": "^15.0.2",
-        "prettier": "^3.0.3"
-    },
-    "dependencies": {
-        "@aws-sdk/client-secrets-manager": "^3.386.0",
-        "cross-env": "^10.1.0",
-        "dotenv": "^16.3.1",
-        "pnpm": "^8.14.1",
-        "uuid": "^9.0.1"
+  "name": "playwright-sample-api",
+  "version": "1.0.0",
+  "description": "Playwright TS framework for RL API",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint . --ext .ts",
+    "test:dev": "set test_env=dev && npx playwright test --grep @token",
+    "test:staging": "test_env=staging npx playwright test"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "./**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.2.0",
+    "@playwright/test": "^1.40.1",
+    "@testmo/testmo-cli": "^1.0.12",
+    "@types/node": "^20.9.0",
+    "@types/winston": "^2.4.4",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "eslint": "^8.52.0",
+    "eslint-plugin-react": "^7.33.2",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.0.2",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.386.0",
+    "cross-env": "^10.1.0",
+    "dotenv": "^16.3.1",
+    "pnpm": "^8.14.1",
+    "uuid": "^9.0.1",
+    "winston": "^3.19.0"
+  }
 }
