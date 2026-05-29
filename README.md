@@ -44,3 +44,17 @@ This repository serves the purpose of creating test scripts for the RL API
 ### run linter
 
 `npm run lint`
+
+
+
+
+# url links for slaughte and may
+
+https://slaughterandmay.sharepoint.com/:u:/r/sites/auroraitsupport/SitePages/Online-Learning.aspx?csf=1&web=1&share=EevvRZrhUlFOm7moOKR0U_IBLOxijZEJRCtBcVXydD_LMQ&e=LDiYmt&xsdata=MDV8MDJ8YW5hbnRoYS5iZWV0aGFqb0Bwcm9saWZpY3MuY29tfDEwZWM3MDBjOTJkYzQ5Y2E3ZWI1MDhkZWJkNmMwOTM2fGVmMDM2MDFjMmUyMjQzMTNhZGJmOWZmNTQwNzgyNWUxfDF8MHw2MzkxNTY0Njg5NjYzODIyMTd8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpGYlhCMGVVMWhjR2tpT25SeWRXVXNJbFlpT2lJd0xqQXVNREF3TUNJc0lsQWlPaUpYYVc0ek1pSXNJa0ZPSWpvaVRXRnBiQ0lzSWxkVUlqb3lmUT09fDB8fHw%3d&sdata=VURVTy9yZnlLeVBjVjNMZ25KanlUWkVBbjAxSnBmZ1JhOUZVQjF6OWNvaz0%3d
+
+
+https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdev.azure.com%2FSlaughterAndMay-DevOps%2FQuality%2520Assurance%2F_git%2FPageObjectUIFramework%3Fpath%3D%2F3EUITests&data=05%7C02%7Canantha.beethajo%40prolifics.com%7C10ec700c92dc49ca7eb508debd6c0936%7Cef03601c2e224313adbf9ff5407825e1%7C1%7C0%7C639156468966397765%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=L8wb%2F5Wfua2V50D8mdd5iW8Bk%2BxZgKN0kLBjoh41ztw%3D&reserved=0
+
+https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdev.azure.com%2FSlaughterAndMay-DevOps%2FQuality%2520Assurance%2F_git%2FPageObjectUIFramework&data=05%7C02%7Canantha.beethajo%40prolifics.com%7C10ec700c92dc49ca7eb508debd6c0936%7Cef03601c2e224313adbf9ff5407825e1%7C1%7C0%7C639156468966409528%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=IYn8%2FRrhyUlZmBZUvvRK%2F6fE7N9rImK2g2dGJ5ChqCs%3D&reserved=0
+
+https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fprivs-3ewap06-a.slaughterandmay.net%2FTE_3E_UAT%2Fweb%2Fui%2Fdashboard%2FWelcome&data=05%7C02%7Canantha.beethajo%40prolifics.com%7C10ec700c92dc49ca7eb508debd6c0936%7Cef03601c2e224313adbf9ff5407825e1%7C1%7C0%7C639156468966421585%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=6gDLNKrD%2FtgsCX%2FTap1zd6nis2R%2FPRFpVDVJfZfubyo%3D&reserved=0
